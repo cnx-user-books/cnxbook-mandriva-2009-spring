@@ -1,0 +1,94 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Report">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col11494</md:content-id>
+  <md:title>Mandriva 2009 Spring</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+  <md:language>sh</md:language>
+
+  
+
+  
+  
+  
+  
+  
+
+  <md:uuid>f2d33a3e-75e4-4dcc-8ec1-f58b38a1a6d8</md:uuid>
+<md:slug>mandriva-2009-spring</md:slug>
+</metadata>
+
+  <col:content>
+    
+      
+        
+      <col:subcollection>
+        <md:title>Razvoj Linuksa</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m45815"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Instalacija Mandrive</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m45812">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/Members/vica/module.2013-02-27.8979629060">Instalacija</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Sistem datoteka i dozvole</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m45816"/>
+        
+      
+    
+    
+      <col:module document="m45817"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+  </col:content>
+</col:collection>

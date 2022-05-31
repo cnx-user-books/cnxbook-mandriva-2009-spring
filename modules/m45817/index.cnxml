@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Dozvole pod Linux OS</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45817</md:content-id>
+  <md:title>Dozvole pod Linux OS</md:title>
+  <md:abstract>Pregled i kratak opis dozvola nad direktorijumima i datotekama kod Linux operativnih sistema.</md:abstract>
+  <md:uuid>a159c9b5-edef-4e89-84bb-7e06076c9a35</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1170786778764">
+      <title>Dozvole pod linuksom </title>
+      <para id="import-auto-id1170802056872">Svaki direktorijum ili datoteka koji postoje u Linuksovom sistemu datoteka, ima definisane dozvole za sledeće kategorije korisnika:</para>
+      <list id="import-auto-id1170795987868" list-type="bulleted">
+        <item>vlasnika (owner), </item>
+        <item>grupu (group) i </item>
+        <item>ostale (others) </item>
+      </list>
+      <para id="import-auto-id1170802708202"><emphasis effect="bold">Vlasnik</emphasis> je korisnik (sistemski ili ljudski) koji je kreirao datoteku. Vlasnik može postati i neko drugi - preuzimanjem vlasničke uloge.</para>
+      <para id="import-auto-id1170814427328"><emphasis effect="bold">Grupa</emphasis> je grupa korisnika - obično ona kojoj pripada vlasnik.</para>
+      <para id="import-auto-id6633294"><emphasis effect="bold">Ostali</emphasis> podrazumevaju sve druge korisnike sistema.</para>
+      <para id="import-auto-id6684709">Dozvole se odnose na čitanje (<emphasis effect="bold">r</emphasis>ead), pisanje (<emphasis effect="bold">w</emphasis>rite) i izvršavanje (e<emphasis effect="bold">x</emphasis>ecute). Na primer: ako u nekom direktorijumu unesemo ls -l , dobijamo spisak datoteka i direktorijuma, pri čemu svaki od njih ima tri grupe slova - za vlasnika, za grupu i za ostale. Na primer: ako datoteka spisak ima dozvole rwxr-xr--, to znači da vlasnik može da čita, piše i izvršava (rwx) tu datoteku, grupa može da čita i izvršava (r-x), a ostali mogu samo da čitaju (r--).</para>
+      <figure id="import-auto-id1170802763947">
+        <media id="import-auto-id4613817" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-ff98.png" height="260" width="552"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1170784661877">Slika1. pregled  dozvola</para>
+    </section>
+  </content>
+</document>

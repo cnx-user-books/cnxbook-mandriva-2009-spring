@@ -1,0 +1,47 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Instalacija Mandriva Linux 2009 Spring</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45812</md:content-id>
+  <md:title>Instalacija Mandriva Linux 2009 Spring</md:title>
+  <md:abstract>Postupak instalacije Linuks operativnog sistema - Mandriva 2009</md:abstract>
+  <md:uuid>f5b11e3b-2b60-4071-b737-edc9cc3a905e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/Members/vica/module.2013-02-27.8979629060" strength="3">Instalacija</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="import-auto-id1166119845408">
+      <title>2 Instalacija Mandriva Spring 2009</title>
+      <para id="import-auto-id1166120869067">Nakon podešavnja u biosu da se sistem podiže sa DVD ili CD drajva i pokretanja računara, sledi instalacija operativnog sistema. Instalacija ove verzije Mandriva linuksa obavlja se sa programom za instalaciju Drak X. Posle pojavljivanja pozdravnog prozora (slika 2.1) pokrenuti instalaciju pritiskom tastera enter na <emphasis effect="italics">instal Mandriva Linux 2009 Spring</emphasis>. Sledeći korak je izbor jezika. Nakon izbora jezika potrebno je prihvatiti ugovor o licenciranju, i nastaviti sa instalacijom podešavanjem rasporeda tastature (slika 2.2). Sledeći korak pri instalaciji je podela diska. </para>
+      <para id="import-auto-id1166119320000">Ako se izabere prva opcija sistem će automatski iskoristiti sav slobodan prostor. Druga opcija odnosi se na podelu diska ručnim putem (slika 2.3). Ležeći pravougaonik bele boje na primeru na slici predstavlja prazan prostor. Ako postoje particije od prethodnog sistema biće predstavljene odgovarajućom bojom. Da bi formirali prvu particiju, odnosno / (root) treba kliknuti na beli prostor, i odabrati opciju kojom se unose podaci za novu particiju. Potrebno je uneti veličinu particije u MB, u ovom slučaju je to 11GB i vrstu sistema datoteka. Za  sistem datoteka izabran je ext3. Tačka montiranja /.</para>
+      <figure id="import-auto-id1166119196062">
+        <media id="import-auto-id1166112926030" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-ff0f.png" height="311" width="534"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166122712144">Slika 2.1 Pokretanje instalacije.</para>
+      <para id="import-auto-id1166119032026"><figure id="import-auto-id1166117948378"><media id="import-auto-id1166125844333" alt=""><image mime-type="image/png" src="../../media/graphics2-4c3a.png" height="383" width="531"/></media></figure>. </para>
+      <para id="import-auto-id1166128726799">Slika 2.2 Podešavanje tastature.</para>
+      <figure id="import-auto-id1166126585247">
+        <media id="import-auto-id1166119018356" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-1959.png" height="331" width="531"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166126510508"/>
+      <para id="import-auto-id1166119615727">Slika 2.3 Podela diska na particije</para>
+      <figure id="import-auto-id1166126952478">
+        <media id="import-auto-id1166121445317" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-5e03.png" height="335" width="499"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166119883037">Slika 1.5.4 Kreiranje root particije</para>
+      <para id="import-auto-id1166128716120">Na isti način kreira se i swap particija. Njena veličina treba da je dva puta veća od raspoložive radne memorije (staro pravilo). Ako je veličina radne memorije dovoljno velika nema potrebe poštovati ovo pravilo. U sledećem koraku dovoljno je samo pogledati šta je sistem pronašao i nastaviti klikom na dugme sledeći. U narednom koraku vrši se izbor grafičkog okruženja. U ovom slučaju izabrano je KDE grafičko okruženje. Posle izbora grafičkog okruženja sledi instalacija. Kada je instalacija gotova vrše se korisnička podešavanja kao što su lozinke za administratora i korisnike. Sledeći koraci su: podešavanje monitora, pregled svih podešavanja koji se mogu i ispraviti, preuzimanje odgovarajućih zakrpa ako postoje i restart sistema. Nakon restartovanja sledi prvo podizanje sistema, pri čemu se nudi registracija koja se može i odbiti.</para>
+    </section>
+  </content>
+</document>

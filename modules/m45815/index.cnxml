@@ -1,0 +1,38 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Istorija Linuxa - Od UNIX_a do Linuksa</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45815</md:content-id>
+  <md:title>Istorija Linuxa - Od UNIX_a do Linuksa</md:title>
+  <md:abstract>Kratak istorijski prikaz razvoja Linux operativnih sistema.</md:abstract>
+  <md:uuid>6e1c4247-01b1-4202-a549-534fad5977c7</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1171127833304">
+      <title>1. Istorija Linuxa - Od UNIX_a do Linuksa</title>
+      <para id="import-auto-id1171127976040">Istorija Linuxa vezana je za istoriju UNIX–a i programa nazvanog Minix. Miniks je bio operativni sistem koji je napisao poznati naučnik Andrew Tannebaum. Operativni sistem UNIX stvorila je kompanija AT&amp;T, čiju osnovnu ideju su prihvatile i mnoge druge kompanije i pojedinci sa željom da je unaprede. Tako je nastalo nekoliko verzija UNIX-a. Kratko će biti opisane samo neke koje se danas najviše koriste.</para>
+      <section id="import-auto-id1171127690870">
+        <title>1.1 AT&amp;T</title>
+        <para id="import-auto-id1171127339914">Operativni sistem pod nazivom UNIX prvi je razvio programer Ken Thompson i grupa njegovih kolega (kompanija AT&amp;T Bell Laboratories), oni su koristili operativni sistem pod nazivom MULTICS, koji je bio višekorisnički i višeprogramski OS.  UNIX je nastao od reči <emphasis effect="italics">uni</emphasis> što označava jedninu, pa je u početku novonastali operativni sistem izgledao kao šala Kenovog razvojnog tima. Međutim desilo se da je  MULTICS zapamtilo samo nekoliko korisnika, a Unix je postao industrijski standard za višekorisničke i višeprogramske operativne sisteme.</para>
+      </section>
+      <section id="import-auto-id1171124803083">
+        <title>1.2 BSD</title>
+        <para id="import-auto-id1171126877238">Prvu verziju UNIX-a koja je nastala na osnovu AT&amp;T objavilo je Berkley Software Distrubution (BSD) – univetzitet Berkley u Kaliforniji. Verzija 7, objavljena 1978 godine. BSD UNIX imao je poboljšanja koja su se odnosila na lakšu upotrebu Unix-a. Poboljšanja korisničkog okruženja bila su pokušaj da se Unix približi običnim korisnicima, a ne samo naprednim programerima. BSD je postao akademski standard za UNIX. Danas je BSDI, komercijalna verzija sistema FreeBSD, još jedan popularni OS koji liči na Linux.</para>
+      </section>
+      <section id="import-auto-id1171120866120">
+        <title>1.3 USL</title>
+        <para id="import-auto-id1171127340365">UNIX System Laboratories (USL) predstavlja još jednu organizaciju koja je razvijala operativni sistem UNIX početkom 80-tih. Organizacija USL je objavila izvorni kôd svih verzija  UNIX-a System V.  Zadnja verzija  UNIX-a koju je objavila organizacija USL je bila UNIX System V Release 4.2 (SVR4.2), koja označava početak ulaska organizacije na tržište UNIX-a. U saradnji s Novellom stvorena je kompanija  Univel, a organizacija USL je objavila verziju SVR4.2 pod nazivom UnixWare. Ova verzija prodata je kasnije organizaciji  Santa Cruz Operation (SCO).</para>
+      </section>
+      <section id="import-auto-id1171122623678">
+        <title>1.4 XENIX, SunOS i AIX</title>
+        <para id="import-auto-id1171124214395">Krajem 70-tih i početkom 80-tih godina, tokom  razvoja personalnih računara kompanija, Microsoft je razvila svoju verziju  UNIX-a, sistem XENIX. Kompanije  Microsoft i AT&amp;T su ujedinile UNIX i XENIX u jedan operativni sistem  nazvan Sistem V/386 3.2, koji može raditi na praktično  bilo kojoj hardverskoj konfiguraciji. Sistem  XENIX i danas se može  nabaviti od organizacije Santa Cruz Operation (SCO). Ova organizacija je sistem  razvijala u saradnji s Microsoftom, trudeći se da promocijom XENIX-a na tržištu personalnih  računara učine ovu verziju UNIX-a jednom od komercijalno najuspešnijih.</para>
+      </section>
+      <section id="import-auto-id1171127323313">
+        <title>1.5 Linux</title>
+        <para id="import-auto-id1171127228775">Linux je nastao 1991. godine kao delo tadašnjeg studenta računarstva Linusa Torvaldsa. Linus je tada imao 23 godine i nadao se da će stvoriti robusnu verziju UNIX-a za Minix korisnike. Minix je napisan da bi prikazivao nekoliko naučnih koncepata u operativnim sistemima. Torvalds je te koncepte objedinio u samostalni sistem sličan UNIX-u. Linus se opredelio za računar sa procesorom 386 jer je taj procesor imao mogućnost višeprogramskog rada.</para>
+        <para id="import-auto-id1171120693778">Linux nema vlasnika, odnosno mnogi ljudi polažu pravo na različite komponente Linuksa. Linus Torwalds je vlasnik osnovnog jezgra linuksa, kompanija Red Hat je vlasnik Red Hat distrubucije itd. Mnogi Linuks programi spadaju pod licencu o javnom korišćenje (GNU).</para>
+        <para id="import-auto-id1171122587691">Istorija Linuks jezgra je usko povezana sa istorijom GNU-a, istaktnutog projekta slobodnog softvera koga vodi Ričard Stalman. GNU projekat je započet 1983. sa ciljem razvoja kompletnog operativnog sistema nalik Uniks-u, uključujući razvojne alate i korisničke aplikativne programe, u celosti od slobodnog softvera. Do izdavanja prve verzije Linuks jezgra, GNU projekat je napravio sve neophodne komponente ovog sistema osim jezgra. Torvalds i drugi rani razvijači Linuks jezgra prilagodili su svoje jezgro tako da ono radi sa GNU komponentama i programima korisničkog okruženja da bi napravili u potpunosti funkconalan operativan sistem. Linuks jezgro i operativni sistem su licencirani pod GNU-ovom Opštom javnom licencom (OJL) koja zahteva da se sve modifikacije izvornog koda i dela koja proisteknu iz njega takođe licenciraju pod OJL-om. Linus Torvalds je 1997. izjavio da je objavljivanje Linuksa pod OJL-om definitivno najbolja stvar koju je on ikada uradio.</para>
+      </section>
+    </section>
+  </content>
+</document>

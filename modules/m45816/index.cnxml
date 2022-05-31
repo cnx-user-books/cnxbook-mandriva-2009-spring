@@ -1,0 +1,70 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Sistem datoteka Linux operativnog sistema</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45816</md:content-id>
+  <md:title>Sistem datoteka Linux operativnog sistema</md:title>
+  <md:abstract>Kratak opis sistema datoteka pod linuks operativnim sistemima.</md:abstract>
+  <md:uuid>0095257f-4889-42ac-8119-558f22f7da0f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1166121013258">
+      <title>Sistemi datoteka</title>
+      <para id="import-auto-id1166117814431">Sistem datoteka ili (file sistem ) predstavlja skup metoda za čuvanje podataka. Da bi se kreirao sistem datoteka na čvrstom disku potrebno je njegovo formatiranje. Formatiranje diska može biti fizičo i logičko. Fizičko formatiranje vrše proizvođači diskova, pri čemu se kreiraju staze i sektori. </para>
+      <para id="import-auto-id1166114208873">Logičkim formatiranjem dobija se sistem datoteka. Sistemi datoteka za Windows su  FAT, FAT32 i NTFS a za Linux su minix. Ext2, ext3 JFS ...</para>
+      <para id="import-auto-id1166126987254">Disk može biti izdeljen na više particija, a svaka particija može imati svoj sistem datoteka.</para>
+      <figure id="import-auto-id1166126071363">
+        <media id="import-auto-id1166125588278" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-2591.png" height="383" width="495"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166117785890">Slika 1.</para>
+      <para id="import-auto-id1166118926525">Na slici 1 prikazan je disk kapaciteta 40GB podjeljen na pet particija:</para>
+      <para id="import-auto-id1166127112699">/mnt/win_c sa NTFS sitemom datoteka</para>
+      <para id="import-auto-id1166121464113">/mnt/win_d sa NTFS sitemom datoteka</para>
+      <para id="import-auto-id1166121200574">/ sa ext3 sistemom datoteka</para>
+      <para id="import-auto-id1166121225794">var/www sa ext3 sistemom datoteka</para>
+      <para id="import-auto-id1166119562226">swap particija</para>
+      <para id="import-auto-id1166114127195">Kod linuksa, particije se predstavljaju slovima kao odvojeni delovi sistema. Kod linuksa je sve datoteka, što znači da je particija hard diska uređaj predstavljen datotekom, koji se može ugraditi u neki deo sistema. </para>
+      <para id="import-auto-id1166119569288">Linuks označava particije na sledeći način:</para>
+      <para id="import-auto-id1166119627859">Prvi disk vezan sa ATA interfejsom označava se sa hda, a njegove particije redom hda1, hda2...</para>
+      <para id="import-auto-id1166119010332">Drugi disk na prvoj IDE grani označava se sa hdb, a njegove particije sa hdb1,hdb2  itd.</para>
+      <para id="import-auto-id1166117765951">Prvi disk na drugoj IDE grani označava se sa hdc</para>
+      <para id="import-auto-id1166113797178">Drugi disk na drugoj IDE grani označava se sa hdd i tako dalje.h distribucija, pravilo u vezi početnog</para>
+      <para id="import-auto-id1166127180845">Ako je disk vezan preko SCSI ili SATA interfejsa, prvi disk se označava sa sda, drugi sa sdb i tako redom </para>
+      <para id="import-auto-id1166119649645">Disketna jedinica se označava sa fd0.</para>
+      <para id="import-auto-id1166126940034">Kod novih distribucija, pravilo u vezi početnog slova se ne poštuje, pa se , nezavisno od vrste diskova, koristi notacija sa : sda, sdb itd. Takvu notaciju koristi i Mandriva linuks 2009 spring.</para>
+      <figure id="import-auto-id1166126941165">
+        <media id="import-auto-id1166120547578" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-b927.png" height="162" width="382"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166126445831">Slika 2.1 . Sa sda označen hard disk sa ATA interfejsom.</para>
+      <figure id="import-auto-id1166121143204">
+        <media id="import-auto-id1166119754454" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-ef9a.png" height="143" width="382"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166126703228">Slika 2.2. Sa sdb označen SATA disk povezan na matičnu ploču preko PCI adaptera.</para>
+      <figure id="import-auto-id1166122424764">
+        <media id="import-auto-id1166113834567" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-5fcd.png" height="141" width="379"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1166121101617">Slika 2.3. USB fles oznacen sa sdc.</para>
+      <para id="import-auto-id1166119863916">Čitav sistem se nalazi u okviru jednog glavnog direktorijuma, roota koji se označava sa /.Tipični direktorijumi koji se sreću kod većine distribucija su :</para>
+      <para id="import-auto-id1166122464897">/bin – (skraćeno binary) sadrži binarne programe, koji predstavljaju osnovne sistemske datoteke, Mnoge linuks naredbe su u stvari programi koji se nalaze u tom direktorijumu.</para>
+      <para id="import-auto-id1166121613008">/boot -  datoteke koje učitavaju sistm</para>
+      <para id="import-auto-id1166119036657">/dev – sadrži posebne datoteke koje se nazivaju datoteke uređaja i koriste za pristup različitim hardverskim komponentama u računaru.</para>
+      <para id="import-auto-id1166119553812">/etc – konfiguracioni fajlovi</para>
+      <para id="import-auto-id1166121439508">/home – osnovni direktorijum za početne korisničke direktorijume. On se u osnovi gradi kao poseban sistem datoteka da bi korisnici imali dovoljno mjesta za svoje datoteke.</para>
+      <para id="import-auto-id1166122695008">/lib (library)- različite programske datoteke</para>
+      <para id="import-auto-id1166121435870">/linux – izvorni kod</para>
+      <para id="import-auto-id1166118985011">/mnt (mount) – sadrži spoljnje memorije i druge uređaje koji se predstavljaju kao dio jedinstvenog fajl-sistema.(kod novijih distribucija koristi se /media</para>
+      <para id="import-auto-id1166122671993">/root lični direktorijum administratora </para>
+      <para id="import-auto-id1166126584478">/var – različite promjenjive datoteke važne za rad (mejl, štampa), kao i dnevnici za različite servise i sam sistem</para>
+      <para id="import-auto-id1166126789276">/usr -  komponente instaliranih programa</para>
+      <para id="import-auto-id1166119042432">/srv -  datoteke različitih servisa (na primer veb servera)</para>
+    </section>
+  </content>
+</document>
